@@ -1,0 +1,18 @@
+{
+  "projects": {
+    "default": "assignnova"
+  },
+  "targets": {
+    "assignnova": {
+      "hosting": {
+        "help-assignnova": [
+          "help-assignnova"
+        ],
+        "main": [
+          "assignnova"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

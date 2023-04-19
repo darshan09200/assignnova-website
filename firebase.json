@@ -1,0 +1,14 @@
+{
+	"hosting": [
+		{
+			"public": "main",
+			"target": "main",
+			"ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+		},
+		{
+			"target": "help-assignnova",
+			"public": "help",
+			"ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+		}
+	]
+}

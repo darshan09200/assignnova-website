@@ -1,0 +1,10 @@
+{
+	"prettier.tabWidth": 4,
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
+	"typescript.format.enable": false,
+	"javascript.format.enable": false,
+	"prettier.useTabs": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"liveServer.settings.port": 5501
+}

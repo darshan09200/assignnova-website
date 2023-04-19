@@ -1,0 +1,17 @@
+.container .article {
+	transition: 0.2s;
+}
+
+.container .article:hover {
+	transform: scale(1.005);
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.8);
+	border: none !important;
+}
+
+.container .article .description {
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	line-clamp: 3;
+	-webkit-box-orient: vertical;
+}

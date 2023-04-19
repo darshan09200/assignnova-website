@@ -1,0 +1,112 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css");
+:root {
+	--bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif, "Apple Color Emoji",
+		"Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	--bs-carousel-indicator-active-bg: #000;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+html {
+	height: 100%;
+}
+body {
+	/* min-height: 100vh; */
+}
+
+.site-header {
+	position: relative;
+	height: auto;
+	padding-top: 32px;
+	padding-bottom: 64px;
+}
+
+.site-header::before {
+	content: "";
+	display: block;
+	background-image: url("/media/images/help-center.webp");
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	width: 100%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-size: auto 120%;
+	z-index: -1;
+}
+
+.site-header h2 {
+	margin-bottom: 128px;
+}
+
+.site-header form {
+	max-width: 350px;
+}
+
+.site-header::after {
+	clear: both;
+	display: table;
+}
+
+.breadcrumb-wrapper {
+	--bs-breadcrumb-divider: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='8' height='8'><path d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/></svg>");
+}
+
+.breadcrumb .breadcrumb-item a:hover {
+	color: var(--bs-primary);
+}
+
+#banner-carousel {
+	max-width: 360px;
+}
+
+.carousel-indicators [data-bs-target] {
+	background-color: #000 !important;
+}
+
+.carousel-item {
+	padding-left: 3rem;
+	padding-right: 3rem;
+}
+
+.carousel-indicators {
+	margin-bottom: -2.25rem !important;
+}
+
+h4.section-heading {
+	text-transform: uppercase;
+	margin-bottom: 2rem;
+}
+
+.feature {
+	transition: 0.2s;
+}
+
+.feature:hover {
+	transform: scale(1.005);
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+#features,
+#story,
+#contact {
+	scroll-margin-top: 64px;
+}
+
+.bg-pattern {
+	background-image: url("/media/images/pattern.png");
+	background-repeat: repeat;
+	background-position: left top;
+	background-color: #466cdc;
+	color: #fff;
+}

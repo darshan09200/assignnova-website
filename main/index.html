@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>AssignNova</title>
+
+		<link rel="apple-touch-icon" sizes="180x180" href="/media/images/apple-touch-icon.png" />
+		<link rel="icon" type="image/png" sizes="32x32" href="/media/images/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="/media/images/favicon-16x16.png" />
+		<link rel="manifest" href="/manifest.webmanifest" />
+
+		<link rel="stylesheet" href="./index.css" />
+
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css" />
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+			integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+			integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body onload="activateNavLink()">
+		<div data-include="header"></div>
+
+		<div class="z-0 position-relative py-5 bg-pattern">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-md-6 offset-md-1 p-4 d-flex flex-column">
+						<h2 class="my-4 lh-base">AssignNova helps you schedule shifts effectively</h2>
+						<ul class="lh-lg fs-5">
+							<li>Showcase and promote your mobile app</li>
+							<li>Demonstrate how the app works</li>
+							<li>Provide answers to common questions</li>
+							<li>Tell the world about the story behind the app</li>
+						</ul>
+						<div class="d-flex align-items-center mt-2 justify-content-center justify-content-md-start">
+							<img src="/media/images/app-store.svg" height="64px" />
+						</div>
+					</div>
+					<div class="col-12 col-md-4 d-flex align-items-center justify-content-center">
+						<div id="banner-carousel" class="carousel slide mb-4" data-bs-ride="carousel">
+							<div class="carousel-indicators">
+								<button
+									type="button"
+									data-bs-target="#banner-carousel"
+									data-bs-slide-to="0"
+									class="active"
+									aria-current="true"
+									aria-label="Slide 1"
+								></button>
+								<button
+									type="button"
+									data-bs-target="#banner-carousel"
+									data-bs-slide-to="1"
+									aria-label="Slide 2"
+								></button>
+								<button
+									type="button"
+									data-bs-target="#banner-carousel"
+									data-bs-slide-to="2"
+									aria-label="Slide 3"
+								></button>
+							</div>
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img
+										src="/media/images/home-1.png"
+										class="d-block w-100 object-fit-contain"
+										alt="..."
+									/>
+								</div>
+								<div class="carousel-item">
+									<img src="/media/images/home-1.png" class="d-block w-100" alt="..." />
+								</div>
+								<div class="carousel-item">
+									<img src="/media/images/home-1.png" class="d-block w-100" alt="..." />
+								</div>
+							</div>
+							<button
+								class="carousel-control-prev d-none d-md-block"
+								type="button"
+								data-bs-target="#banner-carousel"
+								data-bs-slide="prev"
+							>
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Previous</span>
+							</button>
+							<button
+								class="carousel-control-next d-none d-md-block"
+								type="button"
+								data-bs-target="#banner-carousel"
+								data-bs-slide="next"
+							>
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Next</span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<section id="features">
+			<div class="container py-4">
+				<div class="row">
+					<div class="col-12 d-flex justify-content-center">
+						<h4 class="section-heading">Features</h4>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="feature rounded-1 border m-2 p-3">
+							<h5 class="fw-normal">Availability</h5>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quaerat corporis harum
+								laboriosam architecto, quis sint assumenda unde cum optio ut tempore error rerum
+								repellat, similique, inventore vel natus suscipit!
+							</p>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="feature rounded-1 border m-2 p-3">
+							<h5 class="fw-normal">Open Shifts</h5>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quaerat corporis harum
+								laboriosam architecto, quis sint assumenda unde cum optio ut tempore error rerum
+								repellat, similique, inventore vel natus suscipit!
+							</p>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="feature rounded-1 border m-2 p-3">
+							<h5 class="fw-normal">Time Off Management</h5>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quaerat corporis harum
+								laboriosam architecto, quis sint assumenda unde cum optio ut tempore error rerum
+								repellat, similique, inventore vel natus suscipit!
+							</p>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="feature rounded-1 border m-2 p-3">
+							<h5 class="fw-normal">Clock In & Clock Out</h5>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quaerat corporis harum
+								laboriosam architecto, quis sint assumenda unde cum optio ut tempore error rerum
+								repellat, similique, inventore vel natus suscipit!
+							</p>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="feature rounded-1 border m-2 p-3">
+							<h5 class="fw-normal">Siri Shortcut</h5>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quaerat corporis harum
+								laboriosam architecto, quis sint assumenda unde cum optio ut tempore error rerum
+								repellat, similique, inventore vel natus suscipit!
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Availability -->
+			<!-- Open Shifts -->
+			<!-- Time Off Management -->
+			<!-- Clock In Clock Out -->
+			<!-- Siri Shortcut -->
+		</section>
+
+		<section class="bg-pattern" id="story">
+			<div class="container py-4">
+				<div class="row">
+					<div class="col-12 d-flex justify-content-center">
+						<h4 class="section-heading">Story Behind the App</h4>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 col-lg-8">
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, cum velit! Alias nulla ea
+							incidunt ut libero doloremque neque rem odio dolores similique a nostrum, rerum quidem ad
+							deserunt accusantium iste quasi recusandae id tenetur corrupti aperiam, ab ipsa. Nisi quam
+							ad quod natus adipisci magnam necessitatibus nostrum. In laborum voluptatum recusandae animi
+							dolorum ab nulla consequatur assumenda, impedit commodi minus maxime placeat molestias error
+							iure, nisi fuga perspiciatis nesciunt sit nihil sunt incidunt iusto.
+						</p>
+						<p>
+							Quas error corrupti esse illum. Quos voluptatibus repellat facilis tempora? Culpa fugiat
+							dolores ut vel. Quas laudantium distinctio corporis fugit, quae ut non nostrum repudiandae?
+						</p>
+					</div>
+					<div class="col-12 col-lg-4 mt-4 mt-lg-0">
+						<div id="team-carousel" class="carousel slide mb-4" data-bs-ride="carousel">
+							<div class="carousel-indicators">
+								<button
+									type="button"
+									data-bs-target="#team-carousel"
+									data-bs-slide-to="0"
+									class="active"
+									aria-current="true"
+									aria-label="Slide 1"
+								></button>
+								<button
+									type="button"
+									data-bs-target="#team-carousel"
+									data-bs-slide-to="1"
+									aria-label="Slide 2"
+								></button>
+								<button
+									type="button"
+									data-bs-target="#team-carousel"
+									data-bs-slide-to="2"
+									aria-label="Slide 3"
+								></button>
+								<button
+									type="button"
+									data-bs-target="#team-carousel"
+									data-bs-slide-to="3"
+									aria-label="Slide 4"
+								></button>
+								<button
+									type="button"
+									data-bs-target="#team-carousel"
+									data-bs-slide-to="4"
+									aria-label="Slide 5"
+								></button>
+								<button
+									type="button"
+									data-bs-target="#team-carousel"
+									data-bs-slide-to="5"
+									aria-label="Slide 6"
+								></button>
+							</div>
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<div class="d-flex align-items-center justify-content-center flex-column">
+										<span data-include="darshan"></span>
+										<h2 class="fw-normal">Darshan Jain</h2>
+										<p class="text-center">iOS Developer, Backend, Deployments</p>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<div class="d-flex align-items-center justify-content-center flex-column">
+										<span data-include="rishi"></span>
+										<h2 class="fw-normal">Rishi Varma</h2>
+										<p class="text-center">iOS Developer, R&D</p>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<div class="d-flex align-items-center justify-content-center flex-column">
+										<span data-include="pavit"></span>
+										<h2 class="fw-normal">Pavit Kalra</h2>
+										<p class="text-center">iOS Developer, Marketing</p>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<div class="d-flex align-items-center justify-content-center flex-column">
+										<span data-include="abhilash"></span>
+										<h2 class="fw-normal">Abhilash Kanduri</h2>
+										<p class="text-center">iOS Developer, Tester</p>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<div class="d-flex align-items-center justify-content-center flex-column">
+										<span data-include="simran"></span>
+										<h2 class="fw-normal">Simran Mehra</h2>
+										<p class="text-center">iOS Developer, Designing</p>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<div class="d-flex align-items-center justify-content-center flex-column">
+										<span data-include="vijay"></span>
+										<h2 class="fw-normal">Vijay Bharath Reddy</h2>
+										<p class="text-center">iOS Developer, Tester</p>
+									</div>
+								</div>
+							</div>
+							<button
+								class="carousel-control-prev d-none d-md-block"
+								type="button"
+								data-bs-target="#team-carousel"
+								data-bs-slide="prev"
+							>
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Previous</span>
+							</button>
+							<button
+								class="carousel-control-next d-none d-md-block"
+								type="button"
+								data-bs-target="#team-carousel"
+								data-bs-slide="next"
+							>
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Next</span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="pricing">
+			<div class="container py-4">
+				<div class="row">
+					<div class="col-12 d-flex justify-content-center">
+						<h4 class="section-heading">Pricing</h4>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 col-md-6">
+						<h5>Pricing Plan</h5>
+						<ol class="list-group my-4">
+							<li class="list-group-item d-flex justify-content-between align-items-start">
+								<div class="ms-2 me-auto">
+									<div class="fw-bold">1 - 50 Employees</div>
+								</div>
+								<span class="badge bg-primary rounded-pill">$4.00</span>
+							</li>
+							<li class="list-group-item d-flex justify-content-between align-items-start">
+								<div class="ms-2 me-auto">
+									<div class="fw-bold">51 - 200 Employees</div>
+								</div>
+								<span class="badge bg-primary rounded-pill">$3.80</span>
+							</li>
+							<li class="list-group-item d-flex justify-content-between align-items-start">
+								<div class="ms-2 me-auto">
+									<div class="fw-bold">200+ Employees</div>
+								</div>
+								<span class="badge bg-primary rounded-pill">#3.60</span>
+							</li>
+						</ol>
+						<p>The price mentioned is per employee per month.</p>
+					</div>
+					<div class="col-12 col-md-6">
+						<h5>Pricing Calculator</h5>
+						<p>
+							Use our pricing calculator to estimate the cost of your monthly payment by managing shifts
+							on AssignNova.
+						</p>
+						<div class="bg-body-secondary rounded-1 p-4">
+							<div class="container">
+								<div class="row align-items-end">
+									<div class="col-12 col-lg-8">
+										<label for="noOfEmp" class="form-label">Number of Employees</label>
+										<input
+											type="range"
+											class="form-range"
+											id="noOfEmp"
+											step="1"
+											min="1"
+											max="1000"
+										/>
+									</div>
+									<div class="col-12 col-lg-4">
+										<input type="number" class="form-control text-end" id="noOfEmpInp" />
+									</div>
+								</div>
+								<div class="row mt-2 align-items-center">
+									<div class="col-12">
+										<p class="mb-0">You would pay</p>
+										<p><span class="display-6" id="price">$100</span>&nbsp;per month</p>
+									</div>
+									<div class="col-12 col-lg-4 d-block d-md-none">
+										<a href="assignnova://" class="btn btn-primary">Register Now</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="contact" class="bg-pattern">
+			<div class="container py-4">
+				<div class="row">
+					<div class="col-12 d-flex justify-content-center">
+						<h4 class="section-heading">Contact</h4>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 section">
+						<div class="d-flex align-items-center justify-content-center">
+							<a class="btn border text-light me-4" href="mailto:djainj86@gmail.com">
+								<svg
+									width="24"
+									height="24"
+									viewBox="0 0 24 24"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<g clip-path="url(#clip0_276_687)">
+										<path
+											d="M4 3H22C22.2652 3 22.5196 3.10536 22.7071 3.29289C22.8946 3.48043 23 3.73478 23 4V20C23 20.2652 22.8946 20.5196 22.7071 20.7071C22.5196 20.8946 22.2652 21 22 21H4C3.73478 21 3.48043 20.8946 3.29289 20.7071C3.10536 20.5196 3 20.2652 3 20V4C3 3.73478 3.10536 3.48043 3.29289 3.29289C3.48043 3.10536 3.73478 3 4 3ZM13.06 11.683L6.648 6.238L5.353 7.762L13.073 14.317L20.654 7.757L19.346 6.244L13.061 11.683H13.06Z"
+											fill="#fff"
+										/>
+									</g>
+									<defs>
+										<clipPath id="clip0_276_687">
+											<rect width="24" height="24" fill="white" />
+										</clipPath>
+									</defs>
+								</svg>
+								Send an email
+							</a>
+							<a class="btn border text-light" href="tel:16478703956">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									version="1.1"
+									xmlns:xlink="http://www.w3.org/1999/xlink"
+									xmlns:svgjs="http://svgjs.com/svgjs"
+									width="24"
+									height="24"
+									x="0"
+									y="0"
+									viewBox="0 0 32 32"
+									xml:space="preserve"
+								>
+									<g>
+										<path
+											d="M29.393 23.36c-.874-.733-6-3.979-6.852-3.83-.4.071-.706.412-1.525 1.389a11.687 11.687 0 0 1-1.244 1.347 10.757 10.757 0 0 1-2.374-.88 14.7 14.7 0 0 1-6.784-6.786 10.757 10.757 0 0 1-.88-2.374 11.687 11.687 0 0 1 1.347-1.244c.976-.819 1.318-1.123 1.389-1.525.149-.854-3.1-5.978-3.83-6.852C8.334 2.243 8.056 2 7.7 2 6.668 2 2 7.772 2 8.52c0 .061.1 6.07 7.689 13.791C17.41 29.9 23.419 30 23.48 30c.748 0 6.52-4.668 6.52-5.7 0-.356-.243-.634-.607-.94zM23 15h2a8.009 8.009 0 0 0-8-8v2a6.006 6.006 0 0 1 6 6z"
+											fill="#fff"
+										></path>
+										<path
+											d="M28 15h2A13.015 13.015 0 0 0 17 2v2a11.013 11.013 0 0 1 11 11z"
+											fill="#fff"
+										></path>
+									</g>
+								</svg>
+								Phone
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div data-include="footer"></div>
+
+		<script src="./index.js"></script>
+	</body>
+</html>

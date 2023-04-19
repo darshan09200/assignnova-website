@@ -1,0 +1,9 @@
+.container .article-category {
+	transition: 0.2s;
+}
+
+.container .article-category:hover {
+	transform: scale(1.005);
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.8);
+	border: none !important;
+}
